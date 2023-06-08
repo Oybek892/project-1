@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="back">
+            <a href="../index.html"> <img src="../images/Exclusion 1.png" alt="logo" /></a>
+          <img src="../images/Path 5.png" alt="logo" />
+
+          <div class="nav-items">
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">About </a>
+            <a href="#" class="nav-link">Contacts</a>
+            <button>
+              <a href="../pages/login.html" class="nav-lnk">Log in</a>
+            </button>
+            <button>
+              <a href="../pages/open an accaount.html" class="nav-lnk"
+                >Open an account</a
+              >
+            </button>
+
+            <!-- <label  for="language"></label>
+              <select name="language" id="language">
+                <option value="">Choose language</option>
+                <option value="uz">Uz</option>
+                <option value="ru">Ru</option>
+                <option value="en">En</option> -->
+          </div>
+        </nav>
+        <p class="footer">
+            By signing up, you are agreeing to our Terms & Conditions and
+            Privacy Policy.
+          </p>
+      </div>
+    </header>
+    <main>
+      <section class="heroo">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <img class="img" src="../images/Exclusion 1.png" alt="" />
+            <img class="img" src="../images/Path 5.png" alt="" />
+            <p class="welcome">Welcome to ByTrend!</p>
+            <p class="div">Already have an account?</p>
+            <a href="./login.html">Log in</a>
+
+            <label for="email">Email*</label>
+            <input
+              type="email"
+              placeholder="Email address"
+              name="email"
+              id="email"
+              required
+            />
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              pattern="^\+998(33|7(0|1|7)|88|9\d{1})(\d{7})$"
+              oninvalid="alert(`To'g'ri raqam kiriting!`)"
+            />
+
+            <label for="region">Country*</label>
+            <input
+              list="reg"
+              type="text"
+              placeholder="Region"
+              name="region"
+              id="region"
+            />
+            <datalist id="reg">
+              <option value="Russian"></option>
+            </datalist>
+
+            <label for="City">City**</label>
+            <input
+              list="City"
+              type="text"
+              placeholder="City"
+              name="City"
+              id="City"
+            />
+            <label for="password">Confirm password*</label>
+            <input type="password" name="password" id="password" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+            <a href="../pages/open an accaount.html"
+              ><button type="submit">Register</button></a
+            >
+          
+          </div>
+        </div>
+      </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content"> </div>
+      </div>
+    </footer>
+  </body>
+</html>
